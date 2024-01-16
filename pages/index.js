@@ -20,7 +20,7 @@ function Home() {
 
   // TODO: make the call to the API to get all the books on component render
   useEffect(() => {
-    getAllTheBooks();
+    getAllTheBooks(); // Every time a use state changes, the func inside will render the component. 2nd arg is an empty array, a dependency.
   }, []);
 
   return (
